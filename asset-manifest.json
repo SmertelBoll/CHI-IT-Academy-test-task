@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CHI-IT-Academy-test-task/static/css/main.641e3b0b.css",
+    "main.js": "/CHI-IT-Academy-test-task/static/js/main.357d9a81.js",
+    "index.html": "/CHI-IT-Academy-test-task/index.html",
+    "main.641e3b0b.css.map": "/CHI-IT-Academy-test-task/static/css/main.641e3b0b.css.map",
+    "main.357d9a81.js.map": "/CHI-IT-Academy-test-task/static/js/main.357d9a81.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.641e3b0b.css",
+    "static/js/main.357d9a81.js"
+  ]
+}
