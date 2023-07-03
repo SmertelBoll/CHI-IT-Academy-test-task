@@ -1,0 +1,61 @@
+@import "./components/DropDown.css";
+@import "./components/Pagination.css";
+@import "./components/Table.css";
+@import "./components/Window.css";
+
+.wrapper {
+  background-color: #868484;
+  padding: 20px;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+.container-table {
+  max-width: 95vw;
+  margin: 0 auto;
+  width: 100%;
+  overflow-x: auto;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid black;
+  padding: 5px 10px;
+  background-color: #cbc9c9;
+}
+
+button:hover {
+  background-color: #868484;
+}
+
+button:active {
+  background-color: antiquewhite;
+}
+
+input {
+  height: 24px;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: #e3e3e3;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #cbc9c9;
+}
+
+@media (max-width: 400px) {
+  .wrapper {
+    padding: 10px;
+  }
+}

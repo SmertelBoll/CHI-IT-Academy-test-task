@@ -1,0 +1,35 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  flex-wrap: wrap;
+}
+
+.pagination__page-circle {
+  background-color: #e3e3e3;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  margin: 0 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination__page-circle:hover {
+  background-color: #cadb34;
+  cursor: pointer;
+}
+
+.pagination__page-circle-active {
+  background-color: #cadb34;
+}
+
+.pagination__page-circle-points {
+  width: 28px;
+  height: 28px;
+  margin: 0 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
